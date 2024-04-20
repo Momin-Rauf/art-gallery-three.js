@@ -50,7 +50,7 @@ loader.load( '../font/The Queen Marker Alternate_Regular.json', function ( font 
     textMesh.position.x = -10;
     textMesh.position.y =  5;
     scene.add(textMesh);
-
+//text
     textMesh1.castShadow = true;
     textMesh1.position.y += 25; 
     textMesh1.position.z -= 20;
