@@ -30,6 +30,10 @@
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent);
     padding: 20px;
     width: 850px;
+    position: relative;
+
+    top: 20px;
+    
     
     animation: blink 2s infinite alternate; /* Apply blinking animation */
 }
@@ -58,13 +62,14 @@ h2 {
 
 .head {
     position: relative;
-    top: 30px;
+    top: 40px;
 }
 button {
     background-color: green;
     color: #fff;
     border: none;
     padding: 10px 20px;
+    position: relative;
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s;

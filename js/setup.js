@@ -5,7 +5,7 @@ export function setupScene() {
 
     // Set camera position and orientation
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    camera.position.set(0, 2, 5); // Move the camera back 5 units
+    camera.position.set(0, 4, 5); // Move the camera back 5 units
     scene.add(camera);
 
     // Create a WebGL renderer
